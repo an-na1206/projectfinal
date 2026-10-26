@@ -1,0 +1,33 @@
+{
+  "name": "edupulse-server",
+  "version": "1.0.0",
+  "description": "EduPulse LMS - Node.js Express & MongoDB REST API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "keywords": [
+    "mern",
+    "lms",
+    "express",
+    "mongodb",
+    "react",
+    "education"
+  ],
+  "author": "Anna",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
